@@ -28,11 +28,22 @@
     button {
         margin-top: 30px;
         padding: 15px 30px;
-        background-color: antiquewhite;
-        color: black;
+        background-color: rgb(86, 86, 86);
+        color: white;
         border: none;
-        border-radius: 20px;
-        font-size: 20px;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: rgba(96, 93, 88, 0.877);
+        color: rgb(245, 245, 245);
+        transform: scale(1.01);
+        transition: .5s;
+    }
+    button:active {
+        transform: scale(.99);
+        background-color: rgba(255, 255, 255, 0.366);
     }
     .bg-img {
         background-image: url(img/pawel-czerwinski-f5ITyZ8pi5I-unsplash.jpg);
@@ -43,7 +54,7 @@
     <main>
         <h1>Hey there, click on the button</h1>
         <p>If you can't decide what social media you should brows right now <br> then click on the button it's will carry you to there smoothly.</p>
-        <button>I am ready</button>
+        <button>Ready</button>
     </main>
 
     <script src="index.js"></script>
