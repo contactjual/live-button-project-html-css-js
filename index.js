@@ -6,4 +6,4 @@ function manageLinks() {
     document.getElementById('butto').href = myLinks[myRandomNumber];
 }
 
-setInterval(manageLinks, 500);
+setInterval(manageLinks, 1000);
